@@ -43,6 +43,9 @@
     "lint-staged": {
         "src/**/*.js": "prettier --write"
     },
+    "engines": {
+        "node": "14.x"
+      },
     "eslintConfig": {
         "extends": [
             "react-app",
